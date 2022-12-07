@@ -4,13 +4,13 @@
 
 ### Contacts:
 
-telegram: @YuriVoronov
-phone number: +381 063 7027279
+telegram: @YuriVoronov  
+phone number: +381 063 7027279  
 email: voronov.yuri87@gmail.com
 
 ### Location:
 
-Serbia, Belgrade.
+Serbia, Belgrade
 
 ### About me:
 
@@ -38,24 +38,25 @@ I'm frontend developer. I developed my first prorgam('Hello world') couple years
 
 ### Projects:
 
-- Fly-with-me (website for paragliding community).
-  **_Technology stack_**: Express / Node.js / MongoDB / Mongoose / React / Redux / Material UI
-  **_API_**: Yandex.Maps JS API / Meteomatics - Weather API
+- Fly-with-me (website for paragliding community).  
+  **_Technology stack_**: Express / Node.js / MongoDB / Mongoose / React / Redux / Material UI  
+  **_API_**: Yandex.Maps JS API / Meteomatics - Weather API  
   **_Github_**: https://github.com/VoronovY/Fly-with-me
 
-- Telegram-bot translator from Russian into English and from English into Russian:
-  **_Technology stack_**: Express / Node.js / node-fetch
-  **_API_**: node-telegram-bot-api / API Language Translator Service by IBM Watson
+- Telegram-bot translator from Russian into English and from English into Russian:  
+  **_Technology stack_**: Express / Node.js / node-fetch  
+  **_API_**: node-telegram-bot-api / API Language Translator Service by IBM Watson  
   **_Github_**: https://github.com/VoronovY/tel-bot-translate
 
 ### Education:
 
-**_2021 - 2021_**
-Elbrus Coding School Moscow
-**_2004 - 2009_**
-Mining Engineer Moscow State Mining University
+**_2021 - 2021_**  
+Elbrus Coding School Moscow  
+**_2004 - 2009_**  
+Mining Engineer  
+Moscow State Mining University
 
 ### Language:
 
-Russian - Native
+Russian - Native  
 English - A2

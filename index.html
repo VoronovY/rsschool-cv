@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
+  <title>CV Voronov</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="cv-header container_center">
+      <p class="header-text">
+        CV Voronov, Frontend Developer
+      </p>
+    </header>
+    <div class="cv-body">
+      <aside class="cv-sidebar">
+        <nav class="navigation-menu">
+          <ul>
+            <li class="skills-list-item"><a href="#contacts">Contacts</a></li>
+            <li class="skills-list-item"><a href="#location">Location</a></li>
+            <li class="skills-list-item"><a href="#about-me">About me</a></li>
+            <li class="skills-list-item"><a href="#skills">Skills</a></li>
+            <li class="skills-list-item"><a href="#some-code">Some code</a></li>
+            <li class="skills-list-item"><a href="#projects">Projects</a></li>
+            <li class="skills-list-item"><a href="#education">Education</a></li>
+            <li class="skills-list-item"><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="cv-main">
+        <h1 class="cv-main-header-text">Info about me:</h1>
+        <div class="photo_avatar">
+          <img
+            src="./images/photo-avatar.jpg"
+            alt="photo"
+          >
+        </div>
+        <p class="info-name">My name is Yuri Voronov.</p>
+        <section class="section-main">
+          <h2 id="contacts">Contacts:</h2>
+          <ul>
+            <li>telegram: @YuriVoronov</li>
+            <li>phone number: <a
+                class="phone-number"
+                href="tel:+3810637027279"
+              >+381 063 7027279</a></li>
+            <li>email: voronov.yuri87@gmail.com</li>
+          </ul>
+
+        </section>
+        <section class="section-main">
+          <h2 id="location">Location:</h2>
+          <p>Serbia, Belgrade</p>
+        </section>
+
+        <section class="section-main">
+          <h2 id="about-me">About me:</h2>
+          <p>I'm frontend developer. I developed my first prorgam('Hello world') couple years ago. From that time, I
+            decided improve my programming skills. At start of my way in programming, I studyed by myself. Then I
+            finished few courses of HTML, CSS and learned basic syntax of JS language. After that, started study in
+            coding bootcamp(it like internship in a IT company). It was intensive course of JS, NodeJS and some
+            React.
+            After finished, I got offer from IT company and accepted this offer. Now I have more then one year of
+            development with React, Redux, RTK and some AntD.</p>
+        </section>
+        <section class="section-main">
+          <h2 id="skills">Skills:</h2>
+          <ul class="skills-list">
+            <li class="skills-list-item">HTML</li>
+            <li class="skills-list-item">CSS</li>
+            <li class="skills-list-item">JavaScript</li>
+            <li class="skills-list-item">TypeScript</li>
+            <li class="skills-list-item">React</li>
+            <li class="skills-list-item">Redux</li>
+            <li class="skills-list-item">Webpack</li>
+            <li class="skills-list-item">Git</li>
+            <li class="skills-list-item">Ant Design</li>
+          </ul>
+        </section>
+        <section class="section-main">
+          <h2 id="some-code">Some code:</h2>
+          <pre class="code-example">
+            <code class="code">
+              const numbers = [1,2,3,4,5,6,7,8,9,10];
+              numbers.length = 7;
+              console.log(numbers); // [1,2,3,4,5,6,7]
+            </code>
+          </pre>
+        </section>
+        <section class="section-main">
+          <h2 id="projects">Projects:</h2>
+          <article>
+            <h4 class="project-title">
+              Fly-with-me (website for paragliding community):
+            </h4>
+            <br>
+            <i>Technology stack</i>: Express / Node.js / MongoDB / Mongoose / React / Redux / Material UI
+            <br>
+            <i>API</i>: Yandex.Maps JS API / Meteomatics - Weather API
+            <br>
+            <i>Github</i>: <a
+              class="project-link"
+              href="https://github.com/VoronovY/Fly-with-me"
+              target="_blank"
+            >https://github.com/VoronovY/Fly-with-me</a>
+          </article>
+          <article>
+            <h4 class="project-title">
+              Telegram-bot translator from Russian into English and from English into Russian:
+            </h4>
+            <br>
+            <i>Technology stack</i>: Express / Node.js / node-fetch
+            <br>
+            <i>API</i>: node-telegram-bot-api / API Language Translator Service by IBM Watson
+            <br>
+            <i>Github</i>: <a
+              class="project-link"
+              href="https://github.com/VoronovY/tel-bot-translate"
+              target="_blank"
+            >https://github.com/VoronovY/tel-bot-translate</a>
+          </article>
+        </section>
+        <section class="section-main">
+          <h2 id="education">Education:</h2>
+          <article>
+            <h4>2021 - 2021</h4>
+            <p>Fullstack Developer JS</p>
+            <p>Elbrus Coding School Moscow</p>
+          </article>
+          <article>
+            <h4>2004 - 2009</h4>
+            <p>Mining Engineer</p>
+            <p>Moscow State Mining University</p>
+          </article>
+        </section>
+        <section class="section-main">
+          <h2 id="languages">Languages:</h2>
+          <ul>
+            <li>Russian - Native </li>
+            <li>English - B1</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <footer class="cv-footer">
+      <div class="footer-info-about">
+        <div class="github container_center">
+          <a
+            class="footer_link container_center"
+            href="https://github.com/VoronovY"
+            target="_blank"
+          >
+            <svg
+              height="32"
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="32"
+            >
+              <path
+                fill="#ffffff"
+                fill-rule="evenodd"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+              >
+              </path>
+            </svg><span class="footer-link-text">Github YVoronov</span></a>
+        </div>
+      </div>
+      <div class="copyright container_center">2022</div>
+      <div class="footer-info-about">
+        <div class="rs-school container_center">
+          <a
+            class="footer_link"
+            href="https://rs.school/js/"
+            target="_blank"
+          >
+            <img
+              src="./images/logo_rs_text.svg"
+              alt="rsschool logo"
+            >
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
